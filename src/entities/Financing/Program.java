@@ -11,7 +11,7 @@ public class Program {
 			System.out.printf("Prestação: %.2f%n", f1.quota());
 		}
 		catch (IllegalArgumentException e) {
-			System.out.println("Erro no financiamento 1: " + e.getMessage());
+			System.out.println("Erro no 1º financiamento: " + e.getMessage());
 		}
 		
 		try {
@@ -21,7 +21,7 @@ public class Program {
 			System.out.printf("Prestação: %.2f%n", f2.quota());
 		}
 		catch (IllegalArgumentException e) {
-			System.out.println("Erro no financiamento 2: " + e.getMessage());
+			System.out.println("Erro no 2º financiamento: " + e.getMessage());
 		}
 	}
 }
